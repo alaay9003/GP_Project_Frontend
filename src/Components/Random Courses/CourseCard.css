@@ -1,0 +1,26 @@
+.CourseCard{
+    /* float:left; */
+    background-color:#f8f6f6;
+    width: 300px;
+    height: 200px;
+    justify-content: center;
+    text-align: center;
+    border-radius: 2px;
+    box-shadow: none;
+    transition:box-shadow .5s;
+}
+.CourseCard:hover{
+    box-shadow:3px 3px 2px rgb(255, 60, 0) ,2px 2px 2px rgb(0, 0, 0);
+}
+.imgg{
+    width:100%;
+    height:150px;
+}
+a{
+    color: orangered;
+    text-decoration: none;
+    transition: color .5s;
+}
+a:hover{
+    color: black;
+}
